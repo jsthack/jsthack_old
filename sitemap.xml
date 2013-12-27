@@ -1,6 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://jsthack.github.io/blog/2013/07/23/test/</loc>
+        <lastmod>2013-12-26T06:55:12-08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://jsthack.github.io/blog/2013/07/24/10-best-sublime-text-2-color-schememes/
+        </loc>
+        <lastmod>2013-12-26T06:55:12-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jsthack.github.io/blog/2013/07/29/just-some-typographic-fun/</loc>
+        <lastmod>2013-08-09T21:11:55-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jsthack.github.io/blog/2013/08/01/one-more-framework-please/</loc>
+        <lastmod>2013-12-26T06:55:12-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jsthack.github.io/blog/2013/08/05/10-favorite-typefaces/</loc>
+        <lastmod>2013-12-26T06:55:12-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jsthack.github.io/blog/2013/08/09/codecademy/</loc>
+        <lastmod>2013-12-26T06:55:12-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jsthack.github.io/blog/2013/08/11/5-great-google-web-fonts/</loc>
+        <lastmod>2013-12-26T06:55:12-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jsthack.github.io/blog/2013/08/12/my-blog-workflow/</loc>
+        <lastmod>2013-12-26T06:55:12-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jsthack.github.io/blog/2013/08/27/font-tool/</loc>
+        <lastmod>2013-12-26T06:55:12-08:00</lastmod>
+    </url>
+    <url>
         <loc>http://jsthack.github.io/blog/archives/</loc>
         <lastmod>2013-12-26T06:55:12-08:00</lastmod>
     </url>

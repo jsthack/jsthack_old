@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Chrome | JustHack]]></title>
+  <link href="http://jsthack.github.io/blog/categories/chrome/atom.xml" rel="self"/>
+  <link href="http://jsthack.github.io/"/>
+  <updated>2013-12-27T06:01:45-08:00</updated>
+  <id>http://jsthack.github.io/</id>
+  <author>
+    <name><![CDATA[Cosmin Haims]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What's That Font?...]]></title>
+    <link href="http://jsthack.github.io/blog/2013/08/27/font-tool/"/>
+    <updated>2013-08-27T16:28:00-07:00</updated>
+    <id>http://jsthack.github.io/blog/2013/08/27/font-tool</id>
+    <content type="html"><![CDATA[<h3>Sometimes You Just Need To Know</h3>
+
+<p><img class="[sublime]" src="/images/fontpanel.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<p>One of my favorite things about Google Chrome is the various plugins or exstentions that are available. Chrome has a store to find these exstentions just like Apples App store. I have a few exstentions that I have integrated into my workflow for web design, but my favorite is WhatFont. It&rsquo;s not my favorite because it&rsquo;s the most productive, or useful, I just love it because I am a TypeHead. The app is simple, simply click on the little WhatFont icon in your browser bar, and then just hover over a font on any web page and the name will be displayed. This will always work for any text content that is in HTML. The other cool thing is if you click on a font you get this little panel with even more info, like font-size, line-height, and an option to Tweet. Check this exstention out, you won&rsquo;t be sorry.</p>
+
+<p><img class="[sublime]" src="/images/font.png" title="[100%] [100%] [title text [alt text]]" ></p>
+]]></content>
+  </entry>
+  
+</feed>

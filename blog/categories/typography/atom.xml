@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Typography | JustHack]]></title>
+  <link href="http://jsthack.github.io/blog/categories/typography/atom.xml" rel="self"/>
+  <link href="http://jsthack.github.io/"/>
+  <updated>2013-12-27T06:01:45-08:00</updated>
+  <id>http://jsthack.github.io/</id>
+  <author>
+    <name><![CDATA[Cosmin Haims]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What's That Font?...]]></title>
+    <link href="http://jsthack.github.io/blog/2013/08/27/font-tool/"/>
+    <updated>2013-08-27T16:28:00-07:00</updated>
+    <id>http://jsthack.github.io/blog/2013/08/27/font-tool</id>
+    <content type="html"><![CDATA[<h3>Sometimes You Just Need To Know</h3>
+
+<p><img class="[sublime]" src="/images/fontpanel.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<p>One of my favorite things about Google Chrome is the various plugins or exstentions that are available. Chrome has a store to find these exstentions just like Apples App store. I have a few exstentions that I have integrated into my workflow for web design, but my favorite is WhatFont. It&rsquo;s not my favorite because it&rsquo;s the most productive, or useful, I just love it because I am a TypeHead. The app is simple, simply click on the little WhatFont icon in your browser bar, and then just hover over a font on any web page and the name will be displayed. This will always work for any text content that is in HTML. The other cool thing is if you click on a font you get this little panel with even more info, like font-size, line-height, and an option to Tweet. Check this exstention out, you won&rsquo;t be sorry.</p>
+
+<p><img class="[sublime]" src="/images/font.png" title="[100%] [100%] [title text [alt text]]" ></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Google Web Fonts....Here to Stay!!]]></title>
+    <link href="http://jsthack.github.io/blog/2013/08/11/5-great-google-web-fonts/"/>
+    <updated>2013-08-11T05:11:00-07:00</updated>
+    <id>http://jsthack.github.io/blog/2013/08/11/5-great-google-web-fonts</id>
+    <content type="html"><![CDATA[<p>Google&rsquo;s web font library has become quite exstensive, with almost 700 different font families. If you aren&rsquo;t familier with Google Web Fonts or other webfont sources like Typekit, the way it works is with an API. It&rsquo;s very simple to use Google&rsquo;s Web Fonts. You first choose the font that you want to use, google will then give you a snippet of code as shown below.
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&#39;http://fonts.googleapis.com/css?family=Typehead,700&#39;</span> <span class="na">rel=</span><span class="s">&#39;stylesheet&#39;</span> <span class="na">type=</span><span class="s">&#39;text/css&#39;</span><span class="nt">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+All you have to do after that is insert that snippet into the head tag in your html document. After this is done you can start using the font in your designs by simply specifying it in your CSS like any other local font.
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="o">&lt;/</span><span class="nt">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nt">h1</span><span class="o">&gt;</span><span class="nt">nav</span> <span class="p">{</span><span class="o">&lt;/</span><span class="n">h1</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="k">font-family</span><span class="o">:</span> <span class="s1">&#39;Typehead&#39;</span><span class="o">,</span> <span class="k">sans-serif</span><span class="o">,</span> <span class="n">verdana</span><span class="p">;</span>
+</span><span class='line'><span class="k">font-size</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
+</span><span class='line'><span class="k">line-height</span><span class="o">:</span> <span class="m">5px</span><span class="p">;</span>
+</span><span class='line'><span class="k">color</span><span class="o">:</span> <span class="m">#003c42</span><span class="p">;</span>
+</span><span class='line'><span class="o">&lt;/</span><span class="n">code</span><span class="o">&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+My favorite thing about Google Web Fonts is that every single font in the library is Open Source. &ldquo;This means that you are free to share your favorites with friends and colleagues. You can even customize them for your own use, or collaborate with the original designer to improve them. And you can use them in every way you want, privately or commercially — in print, on your computer, or in your websites.&rdquo;</br></p>
+
+<h3>Here are Some of My Favorites</h3>
+
+<ul>
+<li>Signika</li>
+<li>Armata</li>
+<li>Monda</li>
+<li>Noto Sans</li>
+<li>Quantico</li>
+<li>Inconsolata</li>
+<li>Titillium Web</li>
+<li>Alef</li>
+<li>Offside</li>
+<li>Fauna One</li>
+<li>Vollkorn</li>
+<li>Open Sans</li>
+<li>Arvo</li>
+<li>Lato</li>
+<li>Ubuntu</li>
+<li>PT Sans + PT Serif</li>
+</ul>
+
+
+<h4><a href="http://www.google.com/fonts">Find Them All Here!</a></h4>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[10 Faces]]></title>
+    <link href="http://jsthack.github.io/blog/2013/08/05/10-favorite-typefaces/"/>
+    <updated>2013-08-05T12:39:00-07:00</updated>
+    <id>http://jsthack.github.io/blog/2013/08/05/10-favorite-typefaces</id>
+    <content type="html"><![CDATA[<p>Below is a list of simply 10 typefaces. This is not a lost of my 10 favorite typefaces, and this is not a list of the &ldquo;best&rdquo; typefaces out there. Saying that, I do love all the fonts on this list. I chose these typfaces while thinking about use cases. I wanted to make a simple, and solid list that included some very &ldquo;usable&rdquo; fonts. The main two uses this list covers are, Display, and Text faces. Like I said this is a utilitarian list, not a &ldquo;this looks cool&rdquo; list. Don&rsquo;t get me wrong, all of these typefaces are sexy as hell, but the reason I included them is because they simply WORK.</p>
+
+<h2>The List</h2>
+
+<h3>Neutraface</h3>
+
+<p>Type Foundry: House Industries
+<img class="[sublime]" src="/images/Neutra.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<h3>FF Hydra</h3>
+
+<p>Type Designer: Silvio Napoleone
+<img class="[sublime]" src="/images/Hydra.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<h3>Brandon Grotesque</h3>
+
+<p>Type Designer: Hannes von Döhren
+<img class="[sublime]" src="/images/Brandon.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<h3>Fedra Sans</h3>
+
+<p>Type Designer: Peter Bilak
+<img class="[sublime]" src="/images/FedraSans.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<h3>FF Din</h3>
+
+<p>Type Designer: Albert-Jan Pool
+<img class="[sublime]" src="/images/Din.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<h3>Gibson</h3>
+
+<p>Type Designers: Rod McDonald, Patrick Griffin, Kevin Allan King
+<img class="[sublime]" src="/images/Gibson.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<h3>Mission Script</h3>
+
+<p>Type Designer: James Edmonson
+<img class="[sublime]" src="/images/Mission.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<h3>Joanna</h3>
+
+<p>Type Designer: Eric Gill
+<img class="[sublime]" src="/images/Joanna.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<h3>The Serif</h3>
+
+<p>Type Foundry: Lucas Type Foundry
+<img class="[sublime]" src="/images/The-Serif.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<h3>Kefa</h3>
+
+<p>Type Designer: Jérémie Hornus
+<img class="[sublime]" src="/images/Kefa.png" title="[100%] [100%] [title text [alt text]]" ></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Frameworks | JustHack]]></title>
+  <link href="http://jsthack.github.io/blog/categories/frameworks/atom.xml" rel="self"/>
+  <link href="http://jsthack.github.io/"/>
+  <updated>2013-12-27T06:01:45-08:00</updated>
+  <id>http://jsthack.github.io/</id>
+  <author>
+    <name><![CDATA[Cosmin Haims]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[One More Framework Please]]></title>
+    <link href="http://jsthack.github.io/blog/2013/08/01/one-more-framework-please/"/>
+    <updated>2013-08-01T19:20:00-07:00</updated>
+    <id>http://jsthack.github.io/blog/2013/08/01/one-more-framework-please</id>
+    <content type="html"><![CDATA[<p><img class="[Modules]" src="/images/modules.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<p>Web frameworks have become a huge trend in the past few years. Most people out there know Twitter&rsquo;s Bootstrap, but that&rsquo;s just the tip of the ice berg. The problem with so many coming out so often is, it&rsquo;s hard to keep track of all of them. I&rsquo;m going to be honest, most of the frameworks coming out don&rsquo;t really offer that much more than something like Bootstap, or Foundation. There are however some pretty neat framworks that do offer something different than all the others out there. I&rsquo;ve compiled a list of about 12 frameworks, I&rsquo;ve chose these through my own experience and research.</p>
+
+<h2>THE LIST</h2>
+
+<p><a href="http://getbootstrap.com/">Bootstrap</a></p>
+
+<p><a href="http://foundation.zurb.com/">Foundation</a></p>
+
+<p><a href="http://muellergridsystem.com/">Mueller</a></p>
+
+<p><a href="http://lessframework.com/">Less</a></p>
+
+<p><a href="http://www.getskeleton.com/">Get Skeleton</a></p>
+
+<p><a href="http://www.profoundgrid.com/">Profound</a></p>
+
+<p><a href="http://www.responsivegridsystem.com/">Responsive Grid System</a></p>
+
+<p><a href="http://gumbyframework.com/">Gubmy</a></p>
+
+<p><a href="http://responsive.gs/">Responsive.gs</a></p>
+
+<p><a href="http://www.benplum.com/projects/gridlock/">Benplum</a></p>
+
+<p><a href="http://purecss.io/">Pure Css</a></p>
+
+<p><a href="http://www.fitgrd.com/">Fit Grid</a></p>
+]]></content>
+  </entry>
+  
+</feed>

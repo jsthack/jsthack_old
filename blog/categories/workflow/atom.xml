@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Workflow | JustHack]]></title>
+  <link href="http://jsthack.github.io/blog/categories/workflow/atom.xml" rel="self"/>
+  <link href="http://jsthack.github.io/"/>
+  <updated>2013-12-27T06:01:45-08:00</updated>
+  <id>http://jsthack.github.io/</id>
+  <author>
+    <name><![CDATA[Cosmin Haims]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[10 Best Sublime Text 2 Color Schemes]]></title>
+    <link href="http://jsthack.github.io/blog/2013/07/24/10-best-sublime-text-2-color-schememes/"/>
+    <updated>2013-07-24T19:49:00-07:00</updated>
+    <id>http://jsthack.github.io/blog/2013/07/24/10-best-sublime-text-2-color-schememes</id>
+    <content type="html"><![CDATA[<p><img class="[sublime]" src="/images/Sublime.jpg" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<p>Below is a list that I compiled from testing about 200 different Sublime Text Color Schemes for the past couple months. If you are a dark text on light background user then this is not the list for you. As a designer I want my color scheme to do what it ment to do, and that is improve usability, legibility, and workflow. These schemes below get out of their own way, and let your content shine.</p>
+
+<h2>Color Schemes</h2>
+
+<ol>
+<li>Refined Danro (Shown In Image Above)</li>
+<li>Base 16 Monakai.Dark</li>
+<li>Dark Pastel</li>
+<li>Fail Coder</li>
+<li>Grandson Of Obsedian</li>
+<li>Laravel Color Scheme/Larapaste</li>
+<li>Oblivion Soda Dark</li>
+<li>Solarized Dark</li>
+<li>Aqua/Color Schemes/Monokai Aqua</li>
+<li>Refined/Color Schemes/Monokai Refined</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
