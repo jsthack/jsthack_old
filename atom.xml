@@ -4,7 +4,7 @@
   <title><![CDATA[JustHack]]></title>
   <link href="http://jsthack.github.io/atom.xml" rel="self"/>
   <link href="http://jsthack.github.io/"/>
-  <updated>2013-12-27T10:32:51-08:00</updated>
+  <updated>2013-12-28T07:32:01-08:00</updated>
   <id>http://jsthack.github.io/</id>
   <author>
     <name><![CDATA[Cosmin Haims]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Heeley Bot Project Overview]]></title>
+    <link href="http://jsthack.github.io/blog/2013/12/28/heeley-bot-project-overview/"/>
+    <updated>2013-12-28T07:27:20-08:00</updated>
+    <id>http://jsthack.github.io/blog/2013/12/28/heeley-bot-project-overview</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[What's That Font?...]]></title>
