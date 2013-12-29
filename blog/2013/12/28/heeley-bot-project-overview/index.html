@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Heeley Bot Project Overview - JustHack</title>
+  <title>Heeley Bot | Project Overview - JustHack</title>
   <meta name="author" content="Cosmin Haims">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="Summary: For my final project in my Digital Electronics class taught by Michael Shiloh, I decided to design and create my first robot. We were asked &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,7 +73,7 @@
   
   <header>
     
-      <h1 class="entry-title">Heeley Bot Project Overview</h1>
+      <h1 class="entry-title">Heeley Bot | Project Overview</h1>
     
     
       <p class="meta">
@@ -97,7 +96,96 @@
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><h2>Summary:</h2>
+
+<p>For my final project in my Digital Electronics class taught by Michael Shiloh, I decided to design and create my first robot. We were asked to create some sort of embedded Arduino project. Since i got into physical computing I always wanted to create a robot, specifically an autonomous &ldquo;rover&rdquo;.</p>
+
+<p><img class="[sublime]" src="/images/hb.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<h2>Part 1 | Prep</h2>
+
+<p>Going into this project the first thing I had to do was figure out what type of robot I wanted to make, and what were the base functions I wanted to program it to do. I decided on a simple 4WD &ldquo;rover&rdquo;,  using an Ultrasonic PING sensor to achieve obstacle avoidance. I figured out I wanted to attach the PING sensor to a servo so the robot could scan when an obstacle is reached.</p>
+
+<h2>Part 2 | Materials &amp; Parts</h2>
+
+<p>The next step was to figure out all the main components and parts I needed for this project, my &ldquo;BOM&rdquo; (Bill of Materials).</p>
+
+<ol>
+<li>Arduino Uno x 1</li>
+<li>Adafruit Motor Shield x 1</li>
+<li>Parallax Ping Sensor x 1</li>
+<li>Standard Servo x 1</li>
+<li>Geared DC Motors x 4</li>
+<li>Rubber Wheels x 4</li>
+<li>Robot Chassis x 1</li>
+<li>5 AA Battery Pack  (with batteries) x 1</li>
+<li>9v Battery x 2</li>
+<li>Various Types of Jumper Wire (stranded and solid core)</li>
+<li>Various Metal Hardware (screws, nuts, washers)</li>
+<li>Toggle Switches x 2</li>
+<li>Shrink Wrap Tubing</li>
+<li>Zip Ties</li>
+</ol>
+
+
+<h3>Here is a breif list of the tools I used on this project</h3>
+
+<ol>
+<li>Soldering Station</li>
+<li>Wire Strippers</li>
+<li>Wire Cutters</li>
+<li>Screw Drivers</li>
+<li>Multimeter</li>
+<li>Drill</li>
+<li>Solder</li>
+<li>Electrical Tape</li>
+</ol>
+
+
+<p><img class="[sublime]" src="/images/hb1.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<h3>Part 3 | Design</h3>
+
+<p>After I figured out roughly what parts I was going to need, I started doing research on different hardware variations. I looked around a saw what other people had done in similar projects. The two main things I was thinking about during this stage was, I wanted a design that could be added to and changed, and I wanted my design to be easy to program when the time came. My feeling was simple is better. Below are two different views of the same schematic out of Fritzing. There are a few differences in my actual hardware, this is because Fritzing didn&rsquo;t have a couple parts I used.</p>
+
+<p><img class="[sublime]" src="/images/hb_schematic.png" title="[100%] [100%] [title text [alt text]]" >
+<img class="[sublime]" src="/images/hb_diagram.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<p>My hardware config is all based upon the Arduino Uno, but it can be any Arduino or Arduino compatible board. Though if you want to use the Adafruit Motor Shield, you need to use a board that is compatible with the standard Arduino shield footprint. Using the Adafruit Motor Shield made a few things very easy. The Motor Shield has special pinouts for two servos, and it&rsquo;s analog pins are laid out right next to power and ground pins which is perfect for sensor inputs.</p>
+
+<h3>Part 4 | The Build</h3>
+
+<p>Once I had all my parts and components, and since I already had my schematic, putting it together went very smoothly. I ended up going with a DF Robot chassis, and then bought four dc geared motors which would fit inside the chassis. The chassis I bought already had some pre drilled holes for certain boards DF Robot makes, but I drilled my own holes for mounting of my hardware.</p>
+
+<p><img class="[sublime]" src="/images/hb3.png" title="[100%] [100%] [title text [alt text]]" >
+<img class="[sublime]" src="/images/hb4.png" title="[100%] [100%] [title text [alt text]]" >
+<img class="[sublime]" src="/images/hb5.png" title="[100%] [100%] [title text [alt text]]" >
+<img class="[sublime]" src="/images/hb6.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<p>An important detail in my design was to have separate power for my logic and my motors. I used the AA battery pack to power my geared motors, and I mounted a 9V battery under the chassis for my logic (Arduino). As you can see in the image above, I have two separate switches mounted in the back of my bot. I want to also note how important organization is, not just for this project but any project. I labeled each wire coming out of my motors, and labeled any important wires I needed to keep track of. I also used zip ties to keep everything tidy and neat. This just helps me it look good, and also when you need to debug something, or upgrade something it easy to know where everything is.</p>
+
+<p><img class="[sublime]" src="/images/hb7.png" title="[100%] [100%] [title text [alt text]]" >
+<img class="[sublime]" src="/images/hb8.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<p>The whole navigation system for this bot relies on the PING sensor and the servo it&rsquo;s mounted on. My first version for this, I simply hacked together a mount for the sensor with cardboard and hot glue which just screwed into the servo. This actually worked just find, and it led me to design a permanent and cool looking solution for the mount. I knew I wanted to 3D print one, and I found a few different designs on Thingiverse. None of the ones I found fit what I needed, so I forked a design i found and hacked it to work what I needed. I then printed it at me school on the Eden printer, I&rsquo;m very thankful to have access to a $50,000 3D printer. Don&rsquo;t get me wrong, I love desktop FLA printers, but sometimes you just need super high resolution.</p>
+
+<p><img class="[sublime]" src="/images/hb9.png" title="[100%] [100%] [title text [alt text]]" >
+<img class="[sublime]" src="/images/hb10.png" title="[100%] [100%] [title text [alt text]]" >
+<img class="[sublime]" src="/images/hb11.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<h3>Part 5 | Writing the Program</h3>
+
+<p>The code I came up with works pretty well as is, but there are still some bugs I need to work out. In corners sometimes the bot doesn&rsquo;t know what to do, and will get stuck. Another problem is false reading, I need to figure out why it&rsquo;s happening, but sometimes the bot will just stop and turn around fro no reason. My code is based off of a couple peoples code I found on Github, I basically spliced it into what I needed for my hardware, and the behaviors I wanted.</p>
+
+<h4>The Program</h4>
+
+<p>File /Users/Cosmin/Documents/jsthack/source/downloads/code/[linenos:false] could not be found</p>
+
+<p><img class="[sublime]" src="/images/hb12.png" title="[100%] [100%] [title text [alt text]]" ></p>
+
+<h3>Final Thoughts</h3>
+
+<p>The last part of my bot I still haven&rsquo;t finished. I&rsquo;m still in the process of developing a beacon finding system, using IR beacons. The picture above is an example of the transceiver/receiver that is mounted on my robot. The basic concept is I would have a pair of transceiver/receiver exactly the same, one mounted on my bot and the other somewhere on the ground. Each module has IR receivers and emitters, and basically gives an analog reading for direction based of which receiver is being hit the most. It&rsquo;s a simple concept, I just need to figure out how to pair that logic with my current navigation logic I already have. No matter what this has been a great learning experience for me, and I&rsquo;m already thinking about what type of robot I can build next.</p>
 </div>
 
 
@@ -155,7 +243,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2013/12/28/heeley-bot-project-overview/">Heeley Bot Project Overview</a>
+        <a href="/blog/2013/12/28/heeley-bot-project-overview/">Heeley Bot | Project Overview</a>
       </li>
     
       <li class="post">

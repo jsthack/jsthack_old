@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Typography | JustHack]]></title>
   <link href="http://jsthack.github.io/blog/categories/typography/atom.xml" rel="self"/>
   <link href="http://jsthack.github.io/"/>
-  <updated>2013-12-28T07:32:01-08:00</updated>
+  <updated>2013-12-28T23:23:20-08:00</updated>
   <id>http://jsthack.github.io/</id>
   <author>
     <name><![CDATA[Cosmin Haims]]></name>
@@ -147,6 +147,17 @@ My favorite thing about Google Web Fonts is that every single font in the librar
 
 <p>Type Designer: Jérémie Hornus
 <img class="[sublime]" src="/images/Kefa.png" title="[100%] [100%] [title text [alt text]]" ></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Just Some Typographic Fun]]></title>
+    <link href="http://jsthack.github.io/blog/2013/07/29/just-some-typographic-fun/"/>
+    <updated>2013-07-29T21:01:00-07:00</updated>
+    <id>http://jsthack.github.io/blog/2013/07/29/just-some-typographic-fun</id>
+    <content type="html"><![CDATA[<p>Made this for fun today real quick. I wanted to make my initials in a retro, display style. I simply took a base typeface that I liked, then designed forms within the letters. Little things like this bring me a lot of pleasure.</p>
+
+<p><img class="[sublime]" src="images/CH-Retro.png" title="[100%] [100%] [title text [alt text]]" ></p>
 ]]></content>
   </entry>
   

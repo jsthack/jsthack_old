@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: For-Fun | JustHack]]></title>
+  <link href="http://jsthack.github.io/blog/categories/for-fun/atom.xml" rel="self"/>
+  <link href="http://jsthack.github.io/"/>
+  <updated>2013-12-28T23:23:20-08:00</updated>
+  <id>http://jsthack.github.io/</id>
+  <author>
+    <name><![CDATA[Cosmin Haims]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Just Some Typographic Fun]]></title>
+    <link href="http://jsthack.github.io/blog/2013/07/29/just-some-typographic-fun/"/>
+    <updated>2013-07-29T21:01:00-07:00</updated>
+    <id>http://jsthack.github.io/blog/2013/07/29/just-some-typographic-fun</id>
+    <content type="html"><![CDATA[<p>Made this for fun today real quick. I wanted to make my initials in a retro, display style. I simply took a base typeface that I liked, then designed forms within the letters. Little things like this bring me a lot of pleasure.</p>
+
+<p><img class="[sublime]" src="images/CH-Retro.png" title="[100%] [100%] [title text [alt text]]" ></p>
+]]></content>
+  </entry>
+  
+</feed>
