@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Welcome To My New Blog About Design & User Experience"
+date: 2013-07-23 22:52
+comments: true
+categories: 
+---
+
+This is my new blog about visual design and user experience. I will be posting different content hopefully as much as I can, projects I'm woring on, other interesting blog posts, design recources, and more. My name is Cosmin Haims and I'm just a design nut who lives in San Francisco. I started out with a love for print design and identity, and then I fell in love with UI & UX. You can see some of my work [HERE](http://www.cosminhaims.com).
